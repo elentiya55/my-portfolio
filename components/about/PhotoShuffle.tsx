@@ -56,6 +56,12 @@ export default function PhotoShuffle({ onPhotoChange }: Props) {
         </div>
       </div>
       <div className="photo-shuffle-btn-wrap">
+        <span className="photo-shuffle-scroll-hint" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="19.25" stroke="currentColor" strokeWidth="1.5"/>
+            <path d="M13 17.5L20 24.5L27 17.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </span>
         <button
           className="btn photo-shuffle-btn"
           onClick={shuffle}
