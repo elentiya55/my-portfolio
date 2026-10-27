@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 
 const PHOTOS = [1, 2, 3, 4, 5];
 
@@ -11,7 +11,19 @@ interface Props {
 export default function PhotoShuffle({ onPhotoChange }: Props) {
   const [current, setCurrent] = useState(0);
   const [shuffling, setShuffling] = useState(false);
+  const [atTop, setAtTop] = useState(true);
   const currentRef = useRef(0);
+
+  useEffect(() => {
+    const onScroll = () => setAtTop(window.scrollY < 40);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  const scrollToNext = () => {
+    const next = document.querySelector('.about-cv') as HTMLElement | null;
+    if (next) next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   const shuffle = useCallback(() => {
     if (shuffling) return;
@@ -56,12 +68,16 @@ export default function PhotoShuffle({ onPhotoChange }: Props) {
         </div>
       </div>
       <div className="photo-shuffle-btn-wrap">
-        <span className="photo-shuffle-scroll-hint" aria-hidden="true">
+        <button
+          className={`photo-shuffle-scroll-hint${atTop ? '' : ' photo-shuffle-scroll-hint--hidden'}`}
+          onClick={scrollToNext}
+          aria-label="Scroll to more content"
+        >
           <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20" cy="20" r="19.25" stroke="currentColor" strokeWidth="1.5"/>
             <path d="M13 17.5L20 24.5L27 17.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-        </span>
+        </button>
         <button
           className="btn photo-shuffle-btn"
           onClick={shuffle}
