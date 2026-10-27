@@ -53,11 +53,7 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: auto;
-  background-color: var(--color-bg);
-  transition: background-color 0.4s ease;
-}
+html { scroll-behavior: auto; }
 
 body {
   --font-display: var(--font-lora), Georgia, 'Times New Roman', serif;
@@ -69,9 +65,6 @@ body {
   line-height: 1.6;
   transition: background-color 0.4s ease, color 0.4s ease;
   -webkit-font-smoothing: antialiased;
-  max-width: 1280px;
-  margin: 0 auto;
-  overflow-x: hidden;
 }
 
 /* ── Typography Scale ── */
@@ -127,8 +120,8 @@ body {
 .nav {
   position: fixed;
   top: 0;
-  left: max(0px, calc(50vw - 640px));
-  right: max(0px, calc(50vw - 640px));
+  left: 0;
+  right: 0;
   height: var(--nav-height);
   background-color: transparent;
   display: flex;
@@ -228,7 +221,7 @@ body {
 .theme-toggle-btn {
   position: fixed;
   bottom: 32px;
-  right: max(32px, calc(50vw - 640px + 32px));
+  right: 32px;
   z-index: 1000;
   cursor: pointer;
   background: none;
@@ -1965,7 +1958,7 @@ body {
 
 .cs-back {
   position: fixed;
-  left: max(40px, calc(50vw - 640px + 40px));
+  left: 40px;
   top: calc(var(--nav-height) + 24px);
   z-index: 500;
   display: inline-flex;
