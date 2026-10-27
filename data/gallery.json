@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Elysian",
+    "year": "2024",
+    "size": "Charcoal, 18x24 in",
+    "description": "A reflection of insecurities and how we often try to cover up in order to act like someone we're truly not.",
+    "image": "/gallery/elysian.jpg",
+    "column": 1
+  },
+  {
+    "id": 2,
+    "title": "Fly Into The Sun",
+    "year": "2026",
+    "size": "Digital Media, 30x7 in",
+    "description": "Skateboard design created for the 2026 SCAD Rides and Tides competition.",
+    "image": "/gallery/fly-into-the-sun.jpg",
+    "column": 1
+  },
+  {
+    "id": 3,
+    "title": "Remnants",
+    "year": "2025",
+    "size": "Charcoal and Acrylic Paint, 18x24 in",
+    "description": "A depiction of how no matter how fragile we may seem, and no matter the hardships we may face, we always find a way to make ourselves whole again.",
+    "image": "/gallery/remnants.jpg",
+    "column": 3
+  },
+  {
+    "id": 4,
+    "title": "Mantis",
+    "year": "2023",
+    "size": "Colored Pencils, 17x11 in",
+    "description": "An experiment in alternating colors based on obscure lines, while only using complementary colors.",
+    "image": "/gallery/mantis.jpg",
+    "column": 2
+  },
+  {
+    "id": 5,
+    "title": "Psyche",
+    "year": "2024",
+    "size": "Charcoal, 18x24 in",
+    "description": "A visual representation of the battle with one's inner self against the many opinions, ideas, and voices trying to pull them in every direction.",
+    "image": "/gallery/psyche.jpg",
+    "column": 2
+  },
+  {
+    "id": 6,
+    "title": "Jade",
+    "year": "2025",
+    "size": "Colored Pencil and Alcohol Marker, 6x6 in",
+    "description": "Self portrait study in green.",
+    "image": "/gallery/jade.jpg",
+    "column": 2
+  },
+  {
+    "id": 7,
+    "title": "Sapphire",
+    "year": "2025",
+    "size": "Colored Pencil and Alcohol Marker, 6x6 in",
+    "description": "Self portrait study in blue.",
+    "image": "/gallery/sapphire.jpg",
+    "column": 2
+  },
+  {
+    "id": 8,
+    "title": "Ruby",
+    "year": "2025",
+    "size": "Colored Pencil and Alcohol Marker, 6x6 in",
+    "description": "Self portrait study in red.",
+    "image": "/gallery/ruby.jpg",
+    "column": 3
+  },
+  {
+    "id": 9,
+    "title": "Rays With Plumeria",
+    "year": "2026",
+    "size": "Digital Media, 20x80 in",
+    "description": "Surfboard design created for the 2026 SCAD Rides and Tides competition, one of 15 semi-finalist designs.",
+    "image": "/gallery/rays-with-plumeria.jpg",
+    "column": 3
+  }
+]
