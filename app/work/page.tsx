@@ -41,7 +41,7 @@ export default function WorkPage() {
   return (
     <main className="page-content work-page">
       <div className="work-page-inner">
-      <h1 className="t-h2" style={{ textAlign: 'center', marginBottom: '-36px' }}>Projects</h1>
+      <h1 className="t-h2" style={{ textAlign: 'center', marginBottom: '-70px' }}>Projects</h1>
         {PROJECTS.map((project) => (
           <section key={project.id} className="work-project">
             <div className="work-images">
