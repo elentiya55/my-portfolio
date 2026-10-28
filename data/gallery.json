@@ -1,15 +1,33 @@
 [
   {
     "id": 1,
-    "title": "Elysian",
-    "year": "2024",
-    "size": "Charcoal, 18x24 in",
-    "description": "A reflection of insecurities and how we often try to cover up in order to act like someone we're truly not.",
-    "image": "/gallery/elysian.jpg",
+    "title": "Typographic Posters",
+    "year": "2026",
+    "size": "Digital Media, 11x16 in",
+    "description": "The left poster, expressive type, was created using only letters. There aren't any random lines or shapes in the canvas. I was required to use sans serif, pixel, and script fonts, and I was only allowed to use letters 0.5in or smaller, or 10in or larger. It was quite the challenge but I depicted the word \"vex\" with bees. Really because I'm a Bridgerton lover. The right poster, systematic type, was free in terms of what fonts we chose. However we were assigned the content that needed to go into it. My poster is for a Savannah documentary festival, there was a lot of copy that needed to be included. I chose a clean, easy to read sans serif for all of the content, and a bold title font that looked like a film title.",
+    "image": "/gallery/typographic-posters.jpg",
     "column": 1
   },
   {
-    "id": 2,
+    "id": 4,
+    "title": "Elysian",
+    "year": "2024",
+    "size": "Charcoal, 18x24 in",
+    "description": "Fun fact, I modeled for this piece all by myself. I wrapped a skirt around myself and edited about 6 photos together to achieve this reference photo. Its main form is based on roman busts, while the drapery aspect of it is based on classical marble sculptures. This piece went to Texas VASE State my senior year of high school.",
+    "image": "/gallery/elysian.jpg",
+    "column": 2
+  },
+  {
+    "id": 3,
+    "title": "Rays With Plumeria",
+    "year": "2026",
+    "size": "Digital Media, 20x80 in",
+    "description": "Surfboard design created for the 2026 SCAD Rides and Tides competition, one of 15 semi-finalist designs.",
+    "image": "/gallery/rays-with-plumeria.jpg",
+    "column": 3
+  },
+  {
+    "id": 6,
     "title": "Fly Into The Sun",
     "year": "2026",
     "size": "Digital Media, 30x7 in",
@@ -18,66 +36,48 @@
     "column": 1
   },
   {
-    "id": 3,
-    "title": "Remnants",
-    "year": "2025",
-    "size": "Charcoal and Acrylic Paint, 18x24 in",
-    "description": "A depiction of how no matter how fragile we may seem, and no matter the hardships we may face, we always find a way to make ourselves whole again.",
-    "image": "/gallery/remnants.jpg",
-    "column": 3
-  },
-  {
-    "id": 4,
-    "title": "Mantis",
-    "year": "2023",
-    "size": "Colored Pencils, 17x11 in",
-    "description": "An experiment in alternating colors based on obscure lines, while only using complementary colors.",
-    "image": "/gallery/mantis.jpg",
-    "column": 2
-  },
-  {
-    "id": 5,
-    "title": "Psyche",
-    "year": "2024",
-    "size": "Charcoal, 18x24 in",
-    "description": "A visual representation of the battle with one's inner self against the many opinions, ideas, and voices trying to pull them in every direction.",
-    "image": "/gallery/psyche.jpg",
-    "column": 2
-  },
-  {
-    "id": 6,
-    "title": "Jade",
-    "year": "2025",
-    "size": "Colored Pencil and Alcohol Marker, 6x6 in",
-    "description": "Self portrait study in green.",
-    "image": "/gallery/jade.jpg",
+    "id": 2,
+    "title": "Fish Screwdriver",
+    "year": "2026",
+    "size": "Resin, 6x6 in",
+    "description": "I physically created this screwdriver through a series of many many steps. I first 3D modelled concepts for my handle design. After, I created low density foam models before moving onto a medium density foam model. There was a lot of carving and sanding during this project. I then had to fill and seal my medium density foam model to prep it for casting. I made a two part silicone mold which did not want to come apart. I then cast the resin handle before drilling a hole in it to attach the screwdriver shank. A labor of love my little fish was.",
+    "image": "/gallery/fish-screwdriver.jpg",
     "column": 2
   },
   {
     "id": 7,
-    "title": "Sapphire",
-    "year": "2025",
-    "size": "Colored Pencil and Alcohol Marker, 6x6 in",
-    "description": "Self portrait study in blue.",
-    "image": "/gallery/sapphire.jpg",
-    "column": 2
-  },
-  {
-    "id": 8,
     "title": "Ruby",
     "year": "2025",
     "size": "Colored Pencil and Alcohol Marker, 6x6 in",
-    "description": "Self portrait study in red.",
+    "description": "I experimented with extreme facial expressions in order to better understand form. This is a small self portrait study in red.",
     "image": "/gallery/ruby.jpg",
     "column": 3
   },
   {
+    "id": 5,
+    "title": "Remnants",
+    "year": "2025",
+    "size": "Charcoal and Acrylic Paint, 18x24 in",
+    "description": "Pulling from the porcelain designs of my heritage, I wanted to include patterns and a shattered aspect to this piece. There's also the message of being able to rebuild yourself after facing hardship. I like to look at this piece and think that no matter how fragile life is we should always find ways to savor every moment. This piece went to Texas VASE State my senior year of high school.",
+    "image": "/gallery/remnants.jpg",
+    "column": 2
+  },
+  {
+    "id": 8,
+    "title": "Mantis",
+    "year": "2023",
+    "size": "Colored Pencils, 17x11 in",
+    "description": "I love bugs, especially praying mantis'. This piece plays with sharp contrasts in complimentary colors and splitting form while only using an inversion in color to identify that. There are three different species of mantis in the image, the orchid mantis, the spiny flower mantis, and the banded flower mantis.",
+    "image": "/gallery/mantis.jpg",
+    "column": 2
+  },
+  {
     "id": 9,
-    "title": "Rays With Plumeria",
-    "year": "2026",
-    "size": "Digital Media, 20x80 in",
-    "description": "Surfboard design created for the 2026 SCAD Rides and Tides competition, one of 15 semi-finalist designs.",
-    "image": "/gallery/rays-with-plumeria.jpg",
-    "column": 3
+    "title": "Psyche",
+    "year": "2024",
+    "size": "Charcoal, 18x24 in",
+    "description": "I wanted to find a way to visually convey making a decision. I feel like I'm constantly pulled in many directions and it's hard to choose between things. Especially when it comes to what to eat for dinner, that hand is in there somewhere.",
+    "image": "/gallery/psyche.jpg",
+    "column": 2
   }
 ]
