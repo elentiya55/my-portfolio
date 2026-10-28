@@ -36,9 +36,7 @@ export default function Home() {
 
       {/* ── Work / Highlighted Projects ── */}
       <section className="work-section">
-        <h2 className="t-h2 section-heading">
-          {isWhimsy ? 'Some interesting work…' : 'Highlighted projects…'}
-        </h2>
+        <h2 className="t-h2 section-heading" style={{ textAlign: 'center' }}>Projects Built</h2>
         <CaseStudyFolders isWhimsy={isWhimsy} />
         <div className="more-cta">
           <span className="more-cta-text">Like what you see?</span>

@@ -19,6 +19,7 @@ export default function GalleryPage() {
   return (
     <main className="page-content gallery-page">
       <div className="gallery-page-inner">
+      <h1 className="t-h2" style={{ textAlign: 'center', marginBottom: '60px' }}>Artwork</h1>
         <GalleryGrid items={items} />
       </div>
     </main>

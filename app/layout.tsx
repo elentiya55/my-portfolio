@@ -4,7 +4,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
 import Nav from "@/components/Nav";
-import ThemeToggle from "@/components/ThemeToggle";
 import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
 
@@ -38,7 +37,6 @@ export default function RootLayout({
           <Nav />
           {children}
           <Footer />
-          <ThemeToggle />
         </ThemeProvider>
       </body>
     </html>

@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import ThemeToggle from '@/components/ThemeToggle';
 
 const links = [
   { href: '/work', label: 'Work' },
@@ -93,11 +94,13 @@ export default function Nav() {
         </span>
       </Link>
 
-      <div
-        className="nav-links-container"
-        ref={containerRef}
-        onMouseLeave={handleMouseLeave}
-      >
+      <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+        <ThemeToggle />
+        <div
+          className="nav-links-container"
+          ref={containerRef}
+          onMouseLeave={handleMouseLeave}
+        >
         <div
           className="nav-pill-indicator"
           style={{
@@ -131,6 +134,7 @@ export default function Nav() {
             </Link>
           )
         ))}
+        </div>
       </div>
     </nav>
   );

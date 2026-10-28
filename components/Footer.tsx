@@ -9,11 +9,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <h2 className="footer-heading">Let&apos;s keep in touch</h2>
-      <p className="footer-sub">
-        {isWhimsy
-          ? "I'm open to work as well as book recommendations!"
-          : "I'm open to work as well as a good conversation!"}
-      </p>
       <div className="footer-links">
         <a href="https://instagram.com/designing.evelyn" className="footer-link" target="_blank" rel="noopener noreferrer">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -39,11 +34,7 @@ export default function Footer() {
           designingevelyn@gmail.com
         </a>
       </div>
-      <p className="footer-copyright">
-        {isWhimsy
-          ? '© 2026 Evelyn Swanson. Finished thanks to a raging matcha addiction.'
-          : '© 2026 Evelyn Swanson. All rights reserved.'}
-      </p>
+      <p className="footer-copyright">© 2026 Evelyn Swanson. All rights reserved.</p>
       <div className="footer-logo-wrap" aria-hidden="true">
         <svg viewBox="0 0 46.01 66.17" xmlns="http://www.w3.org/2000/svg" className="footer-logo-svg">
           <rect x=".75" y=".75" width="44.51" height="64.67" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="1.5"/>
