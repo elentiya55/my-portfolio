@@ -1658,6 +1658,9 @@ body {
   border-color: #ff8ba7 !important;
   color: #ff8ba7 !important;
   background-color: #fff4f7 !important;
+  width: 130px !important;
+  height: 36px !important;
+  font-size: 14px !important;
 }
 
 .photo-shuffle-btn:hover {
